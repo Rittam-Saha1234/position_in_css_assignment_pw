@@ -1,0 +1,14 @@
+Explain the difference between Absolute and Relative positioning.
+=> 
+Absolute:-
+    (i) Positions an element relative to its nearest positioned ancestor (or the initial containing block if none exist).
+    (ii) Used for elements that need to be positioned precisely without affecting other elements.
+    (iii) Descendant elements can be positioned absolutely relative to this element.
+    (iv) Can be used with z-index to control stacking order.
+
+
+Relative:-
+    (i) Positions an element relative to its normal position in the document flow.
+    (ii) Used to adjust the position of elements without removing them from the document flow.
+    (iii) No effect on the positioning context for descendant elements.
+    (iv) Can also be used with z-index, but affects stacking order relative to original position.
